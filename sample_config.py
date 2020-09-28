@@ -2,21 +2,21 @@ import os
 
 class Config(object):
     # get a token from https://chatbase.com
-    CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
+    CHAT_BASE_TOKEN = os.environ.get("c7344c85-cc68-46f5-b789-6c157d2b2c38", "")
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("1337158227:AAFB2Nq9KBoRr_AXsj_LnluaNA00N-EwJl8", "")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("1749924", 12345))
+    API_HASH = os.environ.get("87e4a056bb574f7939ac283b9a9187ab")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(str(x) for x in os.environ.get("608679953", "").split())
     # reg: Procedures
-    UTUBE_BOT_USERS =  set(str(x) for x in os.environ.get("UTUBE_BOT_USERS", "").split())
-    SUPER_DLBOT_USERS =  set(str(x) for x in os.environ.get("SUPER_DLBOT_USERS", "").split())
-    SUPER3X_DLBOT_USERS =  set(str(x) for x in os.environ.get("SUPER3X_DLBOT_USERS", "").split())
-    SUPER7X_DLBOT_USERS =  set(str(x) for x in os.environ.get("SUPER7X_DLBOT_USERS", "").split())
-    BANNED_USERS =  set(str(x) for x in os.environ.get("BANNED_USERS", "").split())
+    UTUBE_BOT_USERS =  set(str(x) for x in os.environ.get("608679953", "").split())
+    SUPER_DLBOT_USERS =  set(str(x) for x in os.environ.get("608679953", "").split())
+    SUPER3X_DLBOT_USERS =  set(str(x) for x in os.environ.get("608679953", "").split())
+    SUPER7X_DLBOT_USERS =  set(str(x) for x in os.environ.get("608679953", "").split())
+    BANNED_USERS =  set(str(x) for x in os.environ.get("984441749", "").split())
     # Wat was I thinking? :\
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
