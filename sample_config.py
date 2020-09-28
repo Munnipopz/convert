@@ -36,7 +36,7 @@ class Config(object):
     # https://t.me/hevcbay/951
     OUO_IO_API_KEY = "lcJyZwbl"
     # for Google Custom Search Engine
-    GCS_API_KEY = os.environ.get("GCS_API_KEY", None)
+    GCS_API_KEY = os.environ.get("lcJyZwbl", None)
     GCS_SE_ID = os.environ.get("GCS_SE_ID", None)
     # dict to hold the ReQuest queue
     ADL_BOT_RQ = {}
