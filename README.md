@@ -17,7 +17,8 @@ https://github.com/cu713p13/AnyDLBot
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+### Click Below Image to Deploy
+[![Deploy](https://coursework.vschool.io/content/images/size/w2000/2018/10/heroku_logo.jpeg)](https://heroku.com/deploy?template=https://github.com/Munnipopz/convert)
 
 #### The Hard Way
 
